@@ -622,8 +622,12 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
+<<<<<<< HEAD
   cloudServicesEnabled:
     Collab: 1
+=======
+  cloudServicesEnabled: {}
+>>>>>>> 0b39786f0ccb7ae6720315e2f48a7051fab2b6f3
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -637,11 +641,19 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
+<<<<<<< HEAD
   cloudProjectId: f7c83025-c9b5-4625-89bf-d0c8c92d9db8
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: The Fable of Griselda
   organizationId: patricklee1138
+=======
+  cloudProjectId: 
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: 
+  organizationId: 
+>>>>>>> 0b39786f0ccb7ae6720315e2f48a7051fab2b6f3
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0
