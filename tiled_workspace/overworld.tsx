@@ -3,7 +3,7 @@
  <editorsettings>
   <export target="overworldtesttest.tsx" format="tsx"/>
  </editorsettings>
- <image source="../../../../gameAssets/gfx/gfx/Overworld.png" width="640" height="576"/>
+ <image source="Overworld.png" width="640" height="576"/>
  <wangsets>
   <wangset name="path" type="mixed" tile="-1">
    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>

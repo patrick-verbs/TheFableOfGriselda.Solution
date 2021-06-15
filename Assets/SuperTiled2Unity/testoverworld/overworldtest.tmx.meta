@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c262dd75bb23f7f4492b420f9ac6135c
+guid: 9fd72ac06edd5c4498f46d5a9ce01d93
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,10 +8,8 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
-  missingFiles:
-  - Assets/SuperTiled2Unity/testoverworld/overworld.tsx
-  errors:
-  - 'Missing tileset asset: overworld.tsx'
+  missingFiles: []
+  errors: []
   warnings: []
   missingSortingLayers: []
   missingLayers: []
