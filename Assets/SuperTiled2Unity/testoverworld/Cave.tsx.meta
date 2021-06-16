@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de00dd11a45b74e19bfbe5f0075f9fed
+guid: 9ce08ee3cd09d46f9b9d4fe7668e2816
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,8 +8,10 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
-  missingFiles: []
-  errors: []
+  missingFiles:
+  - Assets/RPGW_Caves_v2/MainLev2.0.png
+  errors:
+  - 'Missing texture asset: ../../RPGW_Caves_v2/MainLev2.0.png'
   warnings: []
   missingSortingLayers: []
   missingLayers: []
@@ -17,7 +19,7 @@ ScriptedImporter:
   importerVersion: 11
   pixelsPerUnit: 100
   edgesPerEllipse: 32
-  numberOfObjectsImported: 963
+  numberOfObjectsImported: 2
   useSpriteAtlas: 1
   atlasWidth: 2048
   atlasHeight: 2048

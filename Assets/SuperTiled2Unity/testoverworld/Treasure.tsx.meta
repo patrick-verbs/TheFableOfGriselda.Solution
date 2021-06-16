@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de00dd11a45b74e19bfbe5f0075f9fed
+guid: 678e8a8031cc246479700daadbfac71f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -8,8 +8,10 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: cc34d0f3dc257a442819830b408c5322, type: 3}
-  missingFiles: []
-  errors: []
+  missingFiles:
+  - Assets/chests_16x16_0.png
+  errors:
+  - 'Missing texture asset: ../../chests_16x16_0.png'
   warnings: []
   missingSortingLayers: []
   missingLayers: []
@@ -17,7 +19,7 @@ ScriptedImporter:
   importerVersion: 11
   pixelsPerUnit: 100
   edgesPerEllipse: 32
-  numberOfObjectsImported: 963
+  numberOfObjectsImported: 2
   useSpriteAtlas: 1
   atlasWidth: 2048
   atlasHeight: 2048
