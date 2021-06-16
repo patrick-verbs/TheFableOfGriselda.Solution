@@ -651,7 +651,7 @@ Transform:
   m_Children:
   - {fileID: 2146088383}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &308186052
 GameObject:
@@ -744,7 +744,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &399244948
 GameObject:
@@ -1150,7 +1150,7 @@ Transform:
   - {fileID: 94270425}
   - {fileID: 279492615}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1115541455
 MonoBehaviour:
@@ -1281,6 +1281,63 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &1115676306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2089310536479603748, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_Name
+      value: PreCity
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.35803032
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.892806
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1697982009234750660, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: -2695619058785784247, guid: 66343144637ae4e5ea1ca02e96d9afd2, type: 3}
 --- !u!1001 &1171852305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1402,6 +1459,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5862255846096943184, guid: c262dd75bb23f7f4492b420f9ac6135c, type: 3}
+      propertyPath: m_CellGap.x
+      value: -0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: -5862255846096943184, guid: c262dd75bb23f7f4492b420f9ac6135c, type: 3}
+      propertyPath: m_CellGap.y
+      value: -0.0001
+      objectReference: {fileID: 0}
     - target: {fileID: -5619610605322646235, guid: c262dd75bb23f7f4492b420f9ac6135c, type: 3}
       propertyPath: m_Name
       value: overworldcollisiions
@@ -1606,7 +1671,7 @@ Grid:
   m_GameObject: {fileID: 2146088382}
   m_Enabled: 1
   m_CellSize: {x: 0.16, y: 0.16, z: 1}
-  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellGap: {x: -0.0001, y: -0.0001, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
 --- !u!1001 &7251293359443708416
