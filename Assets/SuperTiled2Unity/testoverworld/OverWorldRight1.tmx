@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="40">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="41">
  <tileset firstgid="1" name="overWorldRight1" tilewidth="16" tileheight="16" tilecount="1440" columns="40">
   <image source="Overworld.png" width="640" height="576"/>
  </tileset>
@@ -149,5 +149,6 @@
   <object id="37" x="307.456" y="32.2829" width="8.19882" height="64.5657"/>
   <object id="38" x="355.624" y="31.7704" width="8.19882" height="65.0781"/>
   <object id="39" x="192.16" y="64.0533" width="14.8604" height="29.7207"/>
+  <object id="40" x="457.407" y="97.3563"/>
  </objectgroup>
 </map>

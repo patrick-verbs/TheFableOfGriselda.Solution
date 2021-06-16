@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+<map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="11">
  <tileset firstgid="1" source="overWorldRight1.tsx"/>
  <layer id="1" name="Ground" width="25" height="25">
   <data encoding="csv">
@@ -88,6 +88,18 @@
 0,0,0,0,0,0,0,0,0,0,614,736,736,736,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="5" name="Collision Layer">
+  <object id="1" x="144.715" y="286.992" width="30.0813" height="18.6992"/>
+  <object id="2" x="145.528" y="288.618" width="11.3821" height="114.634"/>
+  <object id="3" x="209.756" y="290.244" width="29.2683" height="11.3821"/>
+  <object id="4" x="226.016" y="299.187" width="10.5691" height="102.439"/>
+  <object id="5" x="153.659" y="147.967" width="14.6341" height="139.024"/>
+  <object id="6" x="219.512" y="144.715" width="15.4472" height="153.659"/>
+  <object id="7" x="150.407" y="91.8699" width="23.5772" height="56.0976"/>
+  <object id="8" x="173.984" y="93.4959" width="49.5935" height="16.2602"/>
+  <object id="9" x="209.756" y="92.6829" width="15.4472" height="52.0325"/>
+  <object id="10" x="156.911" y="95.935" width="15.4472" height="50.4065"/>
+ </objectgroup>
  <layer id="4" name="Castle 3" width="25" height="25">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
