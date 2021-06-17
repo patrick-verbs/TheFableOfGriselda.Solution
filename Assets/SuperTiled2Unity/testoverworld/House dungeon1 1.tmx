@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.7.0" orientation="orthogonal" renderorder="right-down" width="11" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="11">
- <tileset firstgid="1" source="../../../../../TheFableOfGriselda.Solution/tiled_workspace/overWorldRight1.tsx"/>
- <tileset firstgid="1441" source="../../../../../TheFableOfGriselda.Solution/tiled_workspace/Treasure.tsx"/>
+ <tileset firstgid="1" source="overWorldRight1.tsx"/>
+ <tileset firstgid="1441" source="Treasure.tsx"/>
  <tileset firstgid="1456" source="OverWorldRUSeth.tsx"/>
  <layer id="1" name="Floor" width="11" height="11">
   <data encoding="csv">
