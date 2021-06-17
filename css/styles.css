@@ -1,0 +1,309 @@
+/*********
+MY STYLING
+*********/
+/* HEADER */
+* {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* For same-page anchor links */
+  height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background-color: #111;
+}
+
+.anchor {
+  display: block;
+  height: 100px;
+  /* Same as the header, below */
+  margin-top: -100px;
+  /* Same again... */
+  visibility: hidden;
+}
+
+header {
+  background-color: #111;
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+}
+
+header .header-me {
+  color: #f2f2f2;
+  font-family: 'Josefin Sans';
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px 40px 20px 10px;
+}
+
+header .header-samples {
+  display: none;
+  /* Hides this link on the mobile version (low-res) */
+}
+
+header nav ul {
+  margin: auto 0 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  /* I'm not sure if this is necessary if this isn't centered... */
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  /* Gives error in VS Code but has desired behavior. Conflicts with "inline-block," but gets rid of the gap between links... */
+  list-style: none;
+  /* Get rid of the ugly formatting from lists */
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  color: #f2f2f2;
+  font-family: 'Josefin Sans';
+  font-size: 16px;
+}
+
+/* INDEX - BANNER */
+main {
+  padding-top: 100px;
+}
+
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  /* "100px" is the specified height of the header, above */
+  background-image: url("../img/pat_icon1-2[180].png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  /* Sets up the "table-cell" call in .vertical-banner, below */
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner h2 {
+  color: #f2f2f2;
+  font-family: 'Josefin Sans';
+  font-size: 56px;
+  text-transform: lowercase;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 64px;
+  font-weight: 500;
+  text-shadow: 1px 3px 4px #000;
+  /* [horizontal] [vertical] [blur] [color] */
+}
+
+.index-banner h1 {
+  color: #f2f2f2;
+  font-family: 'Cormorant Garamond';
+  font-size: 28px;
+  text-align: center;
+  padding-left: 10px;
+  font-weight: 300;
+  font-style: italic;
+  text-shadow: 2px 2px 2px #000;
+}
+
+span.highlight {
+  font-weight: 800;
+  font-style: normal;
+  -webkit-text-stroke: 2px 0080aa;
+}
+
+/* INDEX - PROJECTS */
+section.index-projects {
+  width: calc(100% - 40px);
+  /* 100% - (px from left padding) - (px from right padding) */
+  height: calc(100vh - 100px);
+  padding: 40px 20px;
+  background-color: #493038;
+  overflow: hidden;
+  display: table;
+}
+
+section.index-projects div {
+  float: right;
+  margin: 0;
+  padding: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+}
+
+section.index-projects h3 {
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  line-height: 30px;
+  color: #805660;
+}
+
+section.index-projects p {
+  display: block;
+  font-variant: normal;
+  font-family: 'Cormorant Garamond';
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25px;
+  color: #805660;
+  width: 25vw;
+  min-width: 240px;
+}
+
+section.index-projects p a {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  color: #f2f2f2;
+  background-color: #805660;
+  padding: 0 4px 0 4px;
+}
+
+/* INDEX - ABOUT */
+section.index-about {
+  width: calc(100% - 40px);
+  /* 100% - (px from left padding) - (px from right padding) */
+  height: calc(100vh - 100px);
+  padding: 40px 20px;
+  background-color: #4b692f;
+  overflow: hidden;
+  display: table;
+}
+
+section.index-about article {
+  float: left;
+  margin: 0;
+  padding: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  line-height: 30px;
+  color: #959447;
+  font-variant: small-caps;
+}
+
+section.index-about article p {
+  width: 25vw;
+  min-width: 240px;
+  display: block;
+  padding: 10px 0;
+  list-style: none;
+  font-variant: normal;
+  text-align: left;
+}
+
+/* INDEX - CONTACT */
+section.index-contact {
+  width: calc(100% - 32px);
+  /* 100% - (px from left padding) - (px from right padding) */
+  height: calc(100vh - 100px);
+  padding: 40px 16px;
+  background-color: #802458;
+  overflow: hidden;
+  display: table;
+}
+
+section.index-contact div {
+  margin: 0;
+  padding: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+}
+
+section.index-contact ul {
+  float: right;
+  margin: 0;
+  border: 8px double #ee488f;
+  padding: 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  line-height: 30px;
+  color: #ee488f;
+  font-variant: small-caps;
+}
+
+section.index-contact ul li {
+  display: block;
+  list-style: none;
+  font-variant: normal;
+  text-align: right;
+}
+
+section.index-contact ul li a {
+  background-color: #f2f2f210;
+  color: #ee488f;
+  padding: 4px;
+}
+
+/* FOOTER */
+footer {
+  width: calc(100% - 80px);
+  /* 100% - (px from left padding) - (px from right padding) */
+  padding: 40px 40px;
+  background-color: #111;
+  overflow: hidden;
+  display: table;
+}
+
+footer ol {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  float: left;
+  padding-left: 10px;
+}
+
+footer ol li {
+  display: block;
+  list-style: none;
+}
+
+footer ol li a {
+  font-family: 'Josefin Sans';
+  font-size: 20px;
+  line-height: 42px;
+  color: #f2f2f2;
+}
+
+.footer-links-projects {
+  display: none;
+}
+
+.footer-social {
+  width: 50px;
+  float: right;
+}
+
+.footer-social img {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 4px 0;
+}
+/*# sourceMappingURL=styles.css.map */
