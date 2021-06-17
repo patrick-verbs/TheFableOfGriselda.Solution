@@ -83,7 +83,7 @@ main {
   width: 100%;
   height: calc(100vh - 100px);
   /* "100px" is the specified height of the header, above */
-  background-image: url("../img/pat_icon1-2[180].png");
+  background-image: url("title.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -112,7 +112,7 @@ main {
 .index-banner h1 {
   color: #f2f2f2;
   font-family: 'Cormorant Garamond';
-  font-size: 28px;
+  font-size: 48px;
   text-align: center;
   padding-left: 10px;
   font-weight: 300;
